@@ -1,0 +1,4 @@
+# No solver-specific parameters are frozen yet.
+mode: hybrid
+exact_subproblem_size_limit: null # establish empirically
+random_seed: 20261024

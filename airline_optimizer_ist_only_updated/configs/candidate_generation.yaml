@@ -1,0 +1,9 @@
+# Draft defaults; values marked as experimental must be benchmarked.
+time_representation: absolute_minutes
+connection_gap_min_minutes: 45
+connection_gap_max_minutes: 300
+candidate_generation:
+  coarse_grid_minutes: null # choose through controlled experiments
+  include_connection_boundaries: true
+  adaptive_refinement: true
+  preserve_exploration_candidates: true

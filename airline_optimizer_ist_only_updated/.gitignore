@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+*.egg-info/
+build/
+dist/
+data/raw/*
+!data/raw/.gitkeep
+data/canonical/*
+!data/canonical/.gitkeep
+data/manifests/*
+!data/manifests/.gitkeep
+
+# Generated experiment outputs
+runs/
+
+# Python build artifacts
+*.egg-info/
+
+# Local and raw datasets
+data/raw/*
+data/canonical/*
+data/manifests/*
+
+# Editor and temporary backups
+*.bak
+*.backup
+*.tmp
+*~

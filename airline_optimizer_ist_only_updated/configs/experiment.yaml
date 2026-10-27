@@ -1,0 +1,12 @@
+# Every experiment should record input/config fingerprints and a fixed time budget.
+record:
+  - source_fingerprints
+  - config_fingerprint
+  - random_seed
+  - wall_time_seconds
+  - best_score
+  - score_components
+  - od_level_gains_losses
+  - feasible_solution_count
+  - time_to_best_seconds
+  - incremental_vs_full_score_delta
